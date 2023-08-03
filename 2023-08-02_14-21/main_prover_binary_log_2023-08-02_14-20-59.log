@@ -1,0 +1,87 @@
+Server started, listening on 0.0.0.0:8080
+[2m2023-08-02T08:50:59.650988Z[0m [32m INFO[0m [2mmain[0m[2m:[0m Listening on 0.0.0.0:8080
+Server responded succesfully(request 1)
+Public input added into data pool with id 0
+Total number of trace hash table in the pool are 1
+Waiting to finish other task
+Server responded succesfully(request 2)
+Waiting to finish other tasks.......
+Server responded succesfully(request 1)
+Public input added into data pool with id 1
+Total number of trace hash table in the pool are 2
+Waiting to finish other task
+Server responded succesfully(request 2)
+Waiting to finish other tasks.......
+Server responded succesfully(request 1)
+Public input added into data pool with id 2
+Total number of trace hash table in the pool are 3
+Waiting to finish other task
+Server responded succesfully(request 2)
+Waiting to finish other tasks.......
+Server responded succesfully(request 1)
+Public input added into data pool with id 3
+Total number of trace hash table in the pool are 4
+Finished all task..
+Generating merkle tree
+time taken to generate layer 1 trace extension merkle tree is 1.538143399s
+Merkle tree generation done
+Server responded succesfully(request 2)
+All task finished.......
+Preparing request to layer 1 prover to compute Composition Extension
+Sending request to the prover 3 of layer 1
+Sending request to the prover 1 of layer 1
+Sending request to the prover 2 of layer 1
+Sending request to the prover 0 of layer 1
+time taken to get response from prover 0 (composition computation) 190.934161628s is
+time taken to get response from prover 2 (composition computation) 191.320305032s is
+Total number of composition hash table in the pool are 1
+time taken to get response from prover 3 (composition computation) 192.914019577s is
+time taken to get response from prover 1 (composition computation) 194.413828974s is
+Total number of composition hash table in the pool are 2
+Total number of composition hash table in the pool are 3
+Total number of composition hash table in the pool are 4
+Second Merkle tree generation started
+time taken to generate layer 1 composition extension merkle tree is 1.530708445s
+Second Merkle tree generation done
+Preparing request to layer 1 provers to compute Deep composition extension
+Sending request to the prover 1 of layer 1
+Sending request to the prover 2 of layer 1
+Sending request to the prover 3 of layer 1
+Sending request to the prover 0 of layer 1
+time taken to get response from prover 2 (deep composition computation) 24.63342165s is
+time taken to get response from prover 0 (deep composition computation) 25.49542093s is
+time taken to get response from prover 1 (deep composition computation) 25.905293371s is
+time taken to get response from prover 3 (deep composition computation) 25.947067059s is
+Total number of oodframe in the pool are 1
+Total number of deep polynomials in the pool are 1
+Total number of oodframe in the pool are 2
+Total number of deep polynomials in the pool are 2
+Total number of oodframe in the pool are 3
+Total number of deep polynomials in the pool are 3
+Total number of oodframe in the pool are 4
+Total number of deep polynomials in the pool are 4
+time taken to compute deep composition coeffiecients and ood points is 339.516µs
+time taken for layer 1 pow is 118.447038ms
+time taken to merge all deep composition is 253.935489ms
+computing fri proof of final deep composition poly
+time taken to generate layer 1 trace extension proof is 121.183878ms
+time taken to generate layer 1 composition extension proof is 118.692286ms
+time taken for prover(query trace) 0, to response is 2.94289418s
+Total number of query_table in the pool are 1
+time taken for prover(query trace) 1, to response is 3.006015444s
+Total number of query_table in the pool are 2
+time taken for prover(query trace) 3, to response is 3.019264163s
+time taken for prover(query trace) 2, to response is 5.388423978s
+Total number of query_table in the pool are 3
+Total number of query_table in the pool are 4
+trace computations started
+time taken to compute level 2 trace is 16.0191082s
+trace computation done
+time taken for layer 1 fri commits is 57.748995054s
+time taken for layer 1 fri proof is 551.44µs
+Fri proof computed succesfully
+Proof generation started
+trace length 1 is 2097152
+trace length 2 is 524288
+time taken for the trace polynomial is 2.638070115s
+time taken for trace extension is 182.545458956s
