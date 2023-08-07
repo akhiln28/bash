@@ -1,0 +1,17 @@
+Loaded 128 number of users from db
+Server started, listening on 0.0.0.0:3030
+[2m2023-08-04T10:13:28.273888Z[0m [32m INFO[0m [2mmain[0m[2m:[0m Listening on 0.0.0.0:3030
+Started block generation 1
+reading trace_1 from file trace_1.txt
+reading trace_2 from file trace_2.txt
+reading trace_3 from file trace_3.txt
+reading trace_4 from file trace_4.txt
+trace generated succesfully with id 0
+server P* response is "true"
+trace generated succesfully with id 1
+server P* response is "true"
+trace generated succesfully with id 2
+server P* response is "true"
+trace generated succesfully with id 3
+server P* response is "true"
+Block generated succesfully 1

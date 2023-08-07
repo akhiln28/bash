@@ -1,0 +1,36 @@
+Setting Prover ID: 0
+Server started, listening on 0.0.0.0:9090
+[2m2023-08-04T11:27:53.355622Z[0m [32m INFO[0m [2mmain[0m[2m:[0m Listening on 0.0.0.0:9090
+Total number of public inputs in the pool are 1
+time taken to compute trace polynomials is (layer 1) 4.033808691s 
+Total number of trace polynomials in the pool are 1
+time taken to compute trace extension is (layer 1) 32.971525628s 
+Total number of trace extension in the pool are 1
+GPU is available
+Computing gmimc on GPU with 4194304 rows
+Creating input buffer of size 1157627904 u64 numbers
+Writing input buffer
+Time to write buffer: 23179 ms
+Kernel execution + time to read buffer: 17889 ms
+Time to convert to field elements: 113 ms
+time taken gmimc hash (trace extension) is 49.711280858s
+Evaluating constraints
+time taken for individual constraints is 90.926976401s
+Individual Constraint evaluation done
+Total number of individual constraints in the pool are 1
+Evaluating Compositon polynomial
+time taken for group and merge is 94.952513245s
+time taken for composition polynomial is 61.357867562s
+Total number of trace extension in the pool are 1
+time taken for composition extension is 12.886466898s
+Total number of trace extension in the pool are 1
+Compositon polynomial evaluation done
+time taken for composition gmimc hash is 63.558359509s
+Evaluating Deep polynomial
+time taken to compute ood frame (level 1) is 3.236138963s
+time takne for deep composition extension is 16.611586557s
+deep composition evaluation done
+Fetching trace Extension at query positions
+time taken to query trace extension at query positions is 103.085µs
+time taken to query composition extension at query positions is 36.159µs
+fetching done

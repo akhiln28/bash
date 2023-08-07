@@ -22,6 +22,11 @@ kill_process "prover_binary" "PROVER_2"
 kill_process "prover_binary" "PROVER_3"
 kill_process "prover_binary" "PROVER_4"
 
+# to enable dependencies to be fetched from github
+ssh MAIN_PROVER "export CARGO_NET_GIT_FETCH_WITH_CLI=true;"
+# ssh MAIN_PROVER "cd ~/test_sequencer; ~/.cargo/bin/cargo update; cd ~/main_prover; ~/.cargo/bin/cargo update; cd ~/prover; ~/.cargo/bin/cargo update;"
+
+
 # build sequencer, main prover and prover
 echo "Building sequencer binary..."
 ssh MAIN_PROVER "cd ~/test_sequencer; ~/.cargo/bin/cargo build --release; cp target/release/main ~/sequencer_binary;"
@@ -62,6 +67,7 @@ function copy_binary() {
         exit 1
     fi
 }
+
 copy_binary "sequencer_binary" "SEQUENCER"
 copy_binary "prover_binary" "PROVER_1"
 copy_binary "prover_binary" "PROVER_2"
@@ -79,6 +85,7 @@ function run_binary() {
         echo "$1 binary run failed with error code $? on $2!"
     fi
 }
+
 run_binary "sequencer_binary" "SEQUENCER"
 run_binary "main_prover_binary" "MAIN_PROVER"
 run_binary "prover_binary" "PROVER_1" "0"
