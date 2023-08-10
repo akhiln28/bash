@@ -2,9 +2,9 @@ Setting Prover ID: 0
 Server started, listening on 0.0.0.0:9090
 [2m2023-08-04T11:27:53.355622Z[0m [32m INFO[0m [2mmain[0m[2m:[0m Listening on 0.0.0.0:9090
 Total number of public inputs in the pool are 1
-time taken to compute trace polynomials is (layer 1) 4.033808691s 
+time taken to compute trace polynomials is (layer 1) 4.033808691s
 Total number of trace polynomials in the pool are 1
-time taken to compute trace extension is (layer 1) 32.971525628s 
+time taken to compute trace extension is (layer 1) 32.971525628s
 Total number of trace extension in the pool are 1
 GPU is available
 Computing gmimc on GPU with 4194304 rows

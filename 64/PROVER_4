@@ -1,0 +1,29 @@
+Setting Prover ID: 3
+Server started, listening on 0.0.0.0:9090
+[2m2023-08-09T08:30:18.433326Z[0m [32m INFO[0m [2mmain[0m[2m:[0m Listening on 0.0.0.0:9090
+Total number of public inputs in the pool are 1
+time taken to compute trace polynomials is (layer 1) 69.853714ms 
+Total number of trace polynomials in the pool are 1
+time taken to compute trace extension is (layer 1) 613.839691ms 
+Total number of trace extension in the pool are 1
+time taken gmimc hash (trace extension) is 8.589560739s
+Evaluating constraints
+time taken for individual constraints is 2.006665617s
+Individual Constraint evaluation done
+Total number of individual constraints in the pool are 1
+Evaluating Compositon polynomial
+time taken for group and merge is 2.434493951s
+time taken for composition polynomial is 1.325697182s
+Total number of trace extension in the pool are 1
+time taken for composition extension is 286.664908ms
+Total number of trace extension in the pool are 1
+Compositon polynomial evaluation done
+time taken for composition gmimc hash is 1.786210339s
+Evaluating Deep polynomial
+time taken to compute ood frame (level 1) is 36.111884ms
+time takne for deep composition extension is 313.307873ms
+deep composition evaluation done
+Fetching trace Extension at query positions
+time taken to query trace extension at query positions is 63.051µs
+time taken to query composition extension at query positions is 14.652µs
+fetching done

@@ -1,0 +1,29 @@
+Loaded 128 number of users from db
+Server started, listening on 0.0.0.0:3030
+[2m2023-08-09T07:02:47.329142Z[0m [32m INFO[0m [2mmain[0m[2m:[0m Listening on 0.0.0.0:3030
+Started block generation 1
+---------------------------------------------------------
+Number of transactions: 512.
+Hold on.. Generating trace.
+time taken for tree updates is 153.36038714s
+time taken to generate trace is 2.065176734s
+server P* response is "true"
+---------------------------------------------------------
+Number of transactions: 512.
+Hold on.. Generating trace.
+time taken for tree updates is 153.34250497s
+time taken to generate trace is 2.062413718s
+server P* response is "true"
+---------------------------------------------------------
+Number of transactions: 512.
+Hold on.. Generating trace.
+time taken for tree updates is 153.360433711s
+time taken to generate trace is 2.056798154s
+server P* response is "true"
+---------------------------------------------------------
+Number of transactions: 512.
+Hold on.. Generating trace.
+time taken for tree updates is 153.344058057s
+time taken to generate trace is 2.082353287s
+server P* response is "true"
+Block generated succesfully 1

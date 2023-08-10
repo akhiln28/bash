@@ -1,0 +1,140 @@
+Server started, listening on 0.0.0.0:8080
+[2m2023-08-09T09:50:22.530584Z[0m [32m INFO[0m [2mmain[0m[2m:[0m Listening on 0.0.0.0:8080
+Server responded succesfully(request 1)
+Public input added into data pool with id 0
+Total number of trace hash table in the pool are 1
+Waiting to finish other task
+Server responded succesfully(request 2)
+Waiting to finish other tasks.......
+Server responded succesfully(request 1)
+Public input added into data pool with id 1
+Total number of trace hash table in the pool are 2
+Waiting to finish other task
+Server responded succesfully(request 2)
+Waiting to finish other tasks.......
+Server responded succesfully(request 1)
+Public input added into data pool with id 2
+Total number of trace hash table in the pool are 3
+Waiting to finish other task
+Server responded succesfully(request 2)
+Waiting to finish other tasks.......
+Server responded succesfully(request 1)
+Public input added into data pool with id 3
+Total number of trace hash table in the pool are 4
+Finished all task..
+Generating merkle tree
+time taken to generate layer 1 trace extension merkle tree is 1.158595ms
+Merkle tree generation done
+Server responded succesfully(request 2)
+All task finished.......
+Preparing request to layer 1 prover to compute Composition Extension
+Sending request to the prover 3 of layer 1
+Sending request to the prover 0 of layer 1
+Sending request to the prover 1 of layer 1
+Sending request to the prover 2 of layer 1
+time taken to get response from prover 0 (composition computation) 182.996866ms is
+time taken to get response from prover 1 (composition computation) 184.351823ms is
+time taken to get response from prover 3 (composition computation) 185.836006ms is
+time taken to get response from prover 2 (composition computation) 184.330469ms is
+Total number of composition hash table in the pool are 1
+Total number of composition hash table in the pool are 2
+Total number of composition hash table in the pool are 3
+Total number of composition hash table in the pool are 4
+Second Merkle tree generation started
+time taken to generate layer 1 composition extension merkle tree is 1.391508ms
+Second Merkle tree generation done
+Preparing request to layer 1 provers to compute Deep composition extension
+Sending request to the prover 1 of layer 1
+Sending request to the prover 2 of layer 1
+Sending request to the prover 0 of layer 1
+Sending request to the prover 3 of layer 1
+time taken to get response from prover 1 (deep composition computation) 10.01581306s is
+time taken to get response from prover 2 (deep composition computation) 10.015660221s is
+time taken to get response from prover 0 (deep composition computation) 10.015863727s is
+Total number of oodframe in the pool are 1
+Total number of deep polynomials in the pool are 1
+time taken to get response from prover 3 (deep composition computation) 10.015897263s is
+Total number of oodframe in the pool are 2
+Total number of deep polynomials in the pool are 2
+Total number of oodframe in the pool are 3
+Total number of deep polynomials in the pool are 3
+Total number of oodframe in the pool are 4
+Total number of deep polynomials in the pool are 4
+time taken to compute deep composition coeffiecients and ood points is 324.263µs
+time taken to merge all deep composition is 223.528µs
+time taken for final_deep_composition is 340.699µs
+time taken for layer 1 pow is 54.623204ms
+computing fri proof of final deep composition poly
+time taken to generate layer 1 trace extension proof is 151.92µs
+time taken to generate layer 1 composition extension proof is 134.889µs
+time taken for layer 1 fri commits is 57.102088ms
+time taken for layer 1 fri proof is 98.384µs
+Fri proof computed succesfully
+time taken for prover(query trace) 0, to response is 8.521016ms
+Total number of query_table in the pool are 1
+time taken for prover(query trace) 1, to response is 8.540103ms
+time taken for prover(query trace) 2, to response is 8.30118ms
+time taken for prover(query trace) 3, to response is 8.411218ms
+Total number of query_table in the pool are 2
+Total number of query_table in the pool are 3
+Total number of query_table in the pool are 4
+trace computations started
+time taken to compute level 2 trace is 2.687583568s
+trace computation done
+Proof generation started
+trace length 1 is 2097152
+trace length 2 is 524288
+time taken for the trace polynomial is 2.951343474s
+1 is processing
+1 ended 2nd is processing
+2nd ended 3rd is processing
+3rd ended 4th is processing
+4th ended 5th is processing
+column 5 is processing
+column 5 ended adn column 2 processing
+column 2 process ended and boundary table processing
+boundary ended 
+fri ended
+time taken for trace extension is 182.703399768s
+time taken for trace commit is 34.623752972s
+time taken for individual constraints is 5.320921456s
+time taken for group and merge is 71.322798324s
+time taken for composition polynomial is 12.70820034s
+time taken for composition extension is 63.547210778s
+time taken for composition commit is 14.196220164s
+The time taken for OOD frame is 2.43545414s
+time taken for deep composition extension is 47.857506698s
+time taken for fri commits is 160.12782114s
+time taken to generate fri proof is 316.772µs
+time taken for trace extension proof is 143.584µs
+The time taken for composition extension proof is 348.416457ms
+time taken to generate layer 2 proof is 607.573278855s
+------------------------------------------------------
+size of layer 2 ood frame is 1.515625
+size of layer 2 fri roots is 0.3203125
+size of layer 2 trace extension proof is 64.40234375
+size of layer 2 Composition extension proof  is 27.02734375
+FRI proof size is 89.1142578125
+Layer 2 proof size is 182.4541015625
+------------------------------------------------------
+------------------------------------------------------
+size of public inputs is 0.25
+size of layer 1 ood frame is 18.828125
+size of layer 1 trace extension root is 0.03515625
+size of layer 1 composition extension roots is 0.03515625
+size of layer 1 fri proof is 27.400390625
+size of layer 1 fri roots is 0.1796875
+size of layer 1 trace extension proof is 13.1650390625
+size of layer 1 Composition extension proof  is 13.1650390625
+size of fri output(DC value) is 16.0078125
+layer 1 proof size is 89.078125
+------------------------------------------------------
+time taken for the layer 1 ood check is 5.38054ms
+time taken to compute dc coeff and dc ood values is 30.78855ms
+time taken for layer 1 fri intial check is 152.939µs
+time taken for layer 1 fri test is 6.108211ms
+time taken for layer 2 ood check is 14.709706ms
+time taken for the layer 2 fri initial check is 7.560128ms
+time taken for layer 2 fri proof is 8.387595ms
+Proof verified in 73.5 ms
+Finished verification at time (iso format): 2023-08-09T10:00:53Z

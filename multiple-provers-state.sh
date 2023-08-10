@@ -43,7 +43,7 @@ function save_latest_log() {
     # $3 local machine folder
     log_file_name=$(ssh $2 "ls -t $1_$2* | head -n1")
     echo -e "\033[38;5;208m$2 LOGS... $log_file_name \033[0m"
-    scp $2:~/$log_file_name $3/
+    scp $2:~/$log_file_name $3/$2
 }
 
 function check_all_logs() {
